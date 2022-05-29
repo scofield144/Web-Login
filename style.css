@@ -1,0 +1,225 @@
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+:root {
+  --color-legend: hsl(0, 0%, 100%);
+  --color-article: hsla(0, 0%, 100%, 1);
+  --color-body: hsl(0, 0%, 12%);
+  font-size: 62.5%;
+  
+ 
+  
+}
+body {
+  background-color: var(--color-body) !important;
+}
+.main {
+  background-image: url("/assets/backgroundimg.png");
+    position: relative;
+  height: 61.8rem;
+  max-width: 70vw;
+  margin:7rem auto;
+}
+
+section {
+  position: absolute;
+  display: flex;
+  display: grid;
+  flex-direction: row;
+  margin: auto;
+  width: 39.1rem;
+  height: 45.8rem;
+ 
+  padding-left: 3.0rem;
+  padding-right: 3.0rem;
+  grid-gap: 1.2rem;
+}
+.login {
+  border-radius: 2.7rem;
+  opacity: 50%;
+
+  border: 1px solid;
+  background: linear-gradient(109.46deg, rgba(201, 201, 201, 0.8) 1.57%, rgba(196, 196, 196, 0.1) 100%);
+
+  backdrop-filter: blur(60rem);
+  
+  
+  right: 4.59rem;
+  top: 10rem;
+  
+
+}
+
+article {
+  margin-top: 1rem;
+  height: 7.9rem;
+  color:var(--color-article);
+  
+  
+}
+h1 {
+  font-family: "Iceland", cursive;
+  color: rgba(255, 255, 255, 1);
+  font-style: Regular;
+  font-size: 4.0rem; 
+  font-weight: 400;
+  line-height: 38.8rem;
+  line-height: 100%;
+  /* align: Left; */
+  vertical-align: Top;
+}
+h2 {
+  font-family: "Montserrat",sans-serif;
+  font-style: Light;
+  line-height: 2.4rem;
+  line-height: 100%;
+  vertical-align: Top;
+
+}
+ .requeriment {
+  
+  height: 17.5rem;
+  padding-top: 1.3rem;
+
+
+
+}
+
+legend {
+  font-family: Montserrat;
+  font-style: Regular;
+  font-size: 1.5rem;
+  line-height: 1.9rem;
+  line-height: 100%;
+  align:Left;
+  vertical-align: top;
+  color: var(--color-legend);
+  
+}
+.email {
+  margin-top: -2rem;
+  margin-bottom: 2.5rem;
+}
+
+
+.forget {
+  position: absolute;
+
+  right: 1rem;
+}
+label {
+  color: var(--color-legend);
+}
+
+
+
+
+
+input,
+button,
+.newregister {
+  width: 100%;
+  height: 4.3rem;
+}
+input {
+  font-family: 'Montserrat';
+  font-style: regular;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  line-height: 100%;
+  vertical-align: Top;
+  background-color: rgba(201, 201, 201, 0.8);
+  opacity: 5;
+
+
+  background: linear-gradient(109.46deg, rgba(201, 201, 201, 0.8) 1.57%, rgba(196, 196, 196, 0.1) 100%);
+  box-shadow: inset 0 4rem 60rem rgba(0, 0, 0, 0.25);
+border-radius: 1rem;
+border: 0.1rem solid;
+
+border-image-source: linear-gradient(108.87deg, rgba(255, 255, 255, 0.8) 0.66%, rgba(211, 211, 211, 0.1) 99.48%);
+
+
+}
+button {
+  top: 4.67rem;
+  left: 7rem;
+  fill:solid hsl(170, 41%, 75%);
+  background: rgba(165, 217, 208, 1);
+  border: 0.1rem solid hsl(0, 0%, 0%);
+  box-shadow: 0 4rem 4rem hsla(0, 0%, 0%, 0.25) ;
+  border-radius: 40rem;
+
+}
+p  {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 1.5rem;
+line-height: 1.8rem;
+
+color: black;
+
+
+  
+}
+
+.newregister {
+  font-weight: 700;
+}
+em {
+  color: var(--color-article);
+  margin: 10rem;
+  text-align: center;
+
+}
+
+/* em{
+  position: absolute;
+  padding: 2rem;
+} */
+span {
+  color: var(--color-legend);
+  font-weight: 300;
+  line-height: 1.829rem;
+}
+
+/* Input ELlipses */
+
+.eli-1 {
+  position: absolute;
+  left: -2.461rem;
+  top: -3.517rem;
+  transform: rotate(-8.06deg);
+
+  opacity: 0.2;
+
+ }
+
+ .eli-2 {
+   position: absolute;
+   top:0.1rem;
+   left: 41.22rem;
+  
+   opacity: 2;
+   
+ }
+ .eli-3 {
+  position: absolute; 
+  top: 53rem;
+  left: 59.13rem;
+ 
+  opacity: 2;
+
+ }
+ .eli-4 {
+  position: absolute;
+  top:0.1rem;
+  left: 91.22rem;
+ 
+  opacity: 0.2;
+  
+ }
