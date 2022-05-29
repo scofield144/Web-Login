@@ -17,7 +17,7 @@ body {
   background-color: var(--color-body) !important;
 }
 .main {
-  background-image: url("/assets/backgroundimg.png");
+  background-image: url("./assets/backgroundimg.png");
     position: relative;
   height: 61.8rem;
   max-width: 70vw;
