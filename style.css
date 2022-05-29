@@ -20,7 +20,7 @@ body {
   background-image: url("./assets/backgroundimg.png");
     position: relative;
   height: 61.8rem;
-  max-width: 70vw;
+  max-width: 79vw;
   margin:7rem auto;
 }
 
@@ -30,8 +30,8 @@ section {
   display: grid;
   flex-direction: row;
   margin: auto;
-  width: 39.1rem;
-  height: 45.8rem;
+  max-width: 25.1vw;
+  height: 48.8rem;
  
   padding-left: 3.0rem;
   padding-right: 3.0rem;
@@ -48,10 +48,12 @@ section {
   
   
   right: 4.59rem;
-  top: 10rem;
+  top: 9rem;
   
 
 }
+
+
 
 article {
   margin-top: 1rem;
@@ -61,9 +63,8 @@ article {
   
 }
 h1 {
-  font-family: "Iceland", cursive;
-  color: rgba(255, 255, 255, 1);
-  font-style: Regular;
+  font-family: "Iceland";
+  font-style: normal;
   font-size: 4.0rem; 
   font-weight: 400;
   line-height: 38.8rem;
@@ -72,19 +73,40 @@ h1 {
   vertical-align: Top;
 }
 h2 {
-  font-family: "Montserrat",sans-serif;
-  font-style: Light;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+
   line-height: 2.4rem;
   line-height: 100%;
   vertical-align: Top;
 
+
+}
+.email > p{
+  position: absolute;
+  top: 15.0rem;
+  left:4.0rem;
+  
+}
+.password > p{
+  position: absolute;
+  top: 24.5rem;
+  left:4.0rem;
+  opacity: 0.5rem;
 }
  .requeriment {
   
   height: 17.5rem;
   padding-top: 1.3rem;
-
-
+}
+.in {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.8rem;
+  color: white;  
+ 
 
 }
 
@@ -112,6 +134,7 @@ legend {
 }
 label {
   color: var(--color-legend);
+  cursor:pointer;
 }
 
 
@@ -142,18 +165,51 @@ border: 0.1rem solid;
 
 border-image-source: linear-gradient(108.87deg, rgba(255, 255, 255, 0.8) 0.66%, rgba(211, 211, 211, 0.1) 99.48%);
 
+ 
+ background-color: #e8e8e8;
+ 
+ font-size: medium;
+ font-weight: bold;
 
 }
+input:focus {
+  outline-color: white;
+  place-content: "Enter your username";
+ }
 button {
   top: 4.67rem;
   left: 7rem;
-  fill:solid hsl(170, 41%, 75%);
-  background: rgba(165, 217, 208, 1);
-  border: 0.1rem solid hsl(0, 0%, 0%);
-  box-shadow: 0 4rem 4rem hsla(0, 0%, 0%, 0.25) ;
-  border-radius: 40rem;
-
+ background: rgba(165, 217, 208, 1);
+ 
+  
+  box-shadow: 0 0.4rem 0.4rem hsla(0, 0%, 0%, 0.25) ;
+  cursor: pointer;
+ 
 }
+.butt-login {
+  border-radius: 0.7rem;
+  border: 0.1rem solid hsl(0, 0%, 0%);
+   touch-action: manipulation;
+}
+
+.butt-login:active {
+  outline: 0;
+}
+
+.butt-login:hover {
+  outline: 0;
+  border: 0.3rem solid white;
+}
+
+.butt-login p {
+  transition: all 200ms;
+}
+
+.butt-login:hover p {
+  transform: scale(.9);
+  opacity: .75;
+}
+
 p  {
   font-family: 'Montserrat';
 font-style: normal;
@@ -185,14 +241,20 @@ span {
   color: var(--color-legend);
   font-weight: 300;
   line-height: 1.829rem;
+  cursor:pointer;
 }
 
 /* Input ELlipses */
+.logo {
+  position: absolute;
+  top: 3rem;
+  left: 2rem;
+}
 
 .eli-1 {
   position: absolute;
-  left: -2.461rem;
-  top: -3.517rem;
+  left: -1.461rem;
+  top: -1.517rem;
   transform: rotate(-8.06deg);
 
   opacity: 0.2;
@@ -210,7 +272,7 @@ span {
  .eli-3 {
   position: absolute; 
   top: 53rem;
-  left: 59.13rem;
+  right:33rem;
  
   opacity: 2;
 
@@ -218,7 +280,7 @@ span {
  .eli-4 {
   position: absolute;
   top:0.1rem;
-  left: 91.22rem;
+  right: -1rem;
  
   opacity: 0.2;
   
