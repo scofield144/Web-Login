@@ -1,0 +1,227 @@
+.main {
+  background-image: url("../../assets/backgroundimg.png");
+  position: relative;
+  height: 61.8rem;
+  max-width: 79vw;
+  margin: 7rem auto;
+}
+
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-legend: hsl(0, 0%, 100%);
+  --color-article: hsla(0, 0%, 100%, 1);
+  --color-body: hsl(0, 0%, 12%);
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--color-body) !important;
+}
+
+/* Input ELlipses */
+.eli .logo {
+  position: absolute;
+  top: 3rem;
+  left: 2rem;
+}
+.eli__1 {
+  position: absolute;
+  left: -1.461rem;
+  top: -1.517rem;
+  transform: rotate(-8.06deg);
+  opacity: 0.2;
+}
+.eli__2 {
+  position: absolute;
+  top: 0.1rem;
+  left: 41.22rem;
+  opacity: 2;
+}
+.eli__3 {
+  position: absolute;
+  top: 53rem;
+  right: 33rem;
+  opacity: 2;
+}
+.eli__4 {
+  position: absolute;
+  top: 0.1rem;
+  right: -1rem;
+  opacity: 0.2;
+}
+
+button,
+.newregister {
+  width: 100%;
+  height: 4.3rem;
+}
+
+.button__login {
+  top: 4.67rem;
+  left: 7rem;
+  background: rgb(165, 217, 208);
+  box-shadow: 0 0.4rem 0.4rem hsla(0deg, 0%, 0%, 0.25);
+  cursor: pointer;
+  border-radius: 0.7rem;
+  border: 0.1rem solid hsl(0deg, 0%, 0%);
+  touch-action: manipulation;
+}
+.button__login :active {
+  outline: 0;
+}
+
+.button__login :hover {
+  outline: 0;
+  border: 0.3rem solid white;
+}
+
+.button__login > p {
+  transition: all 200ms;
+}
+
+.button__login:hover p {
+  transform: scale(0.9);
+  opacity: 0.75;
+}
+
+.button__login > p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: black;
+}
+
+.newregister {
+  font-weight: 700;
+}
+
+em {
+  color: var(--color-article);
+  margin: 10rem;
+  text-align: center;
+}
+
+/* em{
+    position: absolute;
+    padding: 2rem;
+  } */
+span {
+  color: var(--color-legend);
+  font-weight: 300;
+  line-height: 1.829rem;
+  cursor: pointer;
+}
+
+input {
+  width: 100%;
+  height: 4.3rem;
+  font-family: "Montserrat";
+  font-style: regular;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  line-height: 100%;
+  vertical-align: Top;
+  background-color: rgba(201, 201, 201, 0.8);
+  opacity: 5;
+  background: linear-gradient(109.46deg, rgba(201, 201, 201, 0.8) 1.57%, rgba(196, 196, 196, 0.1) 100%);
+  box-shadow: inset 0 4rem 60rem rgba(0, 0, 0, 0.25);
+  border-radius: 1rem;
+  border: 0.1rem solid;
+  border-image-source: linear-gradient(108.87deg, rgba(255, 255, 255, 0.8) 0.66%, rgba(211, 211, 211, 0.1) 99.48%);
+  background-color: #e8e8e8;
+  font-size: medium;
+  font-weight: bold;
+}
+input :focus {
+  outline-color: white;
+  place-content: "Enter your username";
+}
+
+.nav-login {
+  height: 17.5rem;
+  padding-top: 1.3rem;
+}
+.nav-login .email {
+  margin-top: -2rem;
+  margin-bottom: 2.5rem;
+}
+.nav-login .email #in {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  opacity: 5;
+  padding-left: 1.1rem;
+  color: rgb(255, 255, 255);
+}
+.nav-login .password legend {
+  font-family: Montserrat;
+  font-style: Regular;
+  font-size: 1.5rem;
+  line-height: 1.9rem;
+  line-height: 100%;
+  align: Left;
+  vertical-align: top;
+  color: var(--color-legend);
+}
+.nav-login .password .forget {
+  position: absolute;
+  right: 1rem;
+}
+.nav-login .password .forget label {
+  color: var(--color-legend);
+  cursor: pointer;
+}
+
+section {
+  position: absolute;
+  display: flex;
+  display: grid;
+  flex-direction: row;
+  margin: auto;
+  max-width: 25.1vw;
+  height: 48.8rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  grid-gap: 1.2rem;
+  border-radius: 2.7rem;
+  opacity: 50%;
+  border: 1px solid;
+  background: linear-gradient(109.46deg, rgba(201, 201, 201, 0.8) 1.57%, rgba(196, 196, 196, 0.1) 100%);
+  -webkit-backdrop-filter: blur(60rem);
+          backdrop-filter: blur(60rem);
+  right: 4.59rem;
+  top: 9rem;
+}
+
+article {
+  margin-top: 1rem;
+  height: 7.9rem;
+  color: var(--color-article);
+}
+article h1 {
+  font-family: "Iceland";
+  font-style: normal;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 38.8rem;
+  line-height: 100%;
+  /* align: Left; */
+  vertical-align: Top;
+}
+article h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  line-height: 2.4rem;
+  line-height: 100%;
+  vertical-align: Top;
+}/*# sourceMappingURL=style.css.map */

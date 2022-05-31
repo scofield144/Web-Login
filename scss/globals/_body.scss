@@ -1,0 +1,19 @@
+
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  :root {
+    --color-legend: hsl(0, 0%, 100%);
+    --color-article: hsla(0, 0%, 100%, 1);
+    --color-body: hsl(0, 0%, 12%);
+    font-size: 62.5%;
+    
+   
+    
+  }
+  body {
+    background-color: var(--color-body) !important;
+  }

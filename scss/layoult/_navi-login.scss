@@ -1,0 +1,48 @@
+@forward 'input';
+
+.nav-login {
+  height: 17.5rem;
+  padding-top: 1.3rem;
+
+  .email {
+    margin-top: -2rem;
+    margin-bottom: 2.5rem;
+
+    #in {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.5rem;
+      line-height: 1.8rem;
+      opacity: 5;
+      padding-left: 1.1rem;
+      color: rgb(255, 255, 255);
+    }
+  }
+  .password {
+    legend {
+      font-family: Montserrat;
+      font-style: Regular;
+      font-size: 1.5rem;
+      line-height: 1.9rem;
+      line-height: 100%;
+      align: Left;
+      vertical-align: top;
+      color: var(--color-legend);
+    }
+  
+    .forget {
+      position: absolute;
+  
+      right: 1rem;
+
+      label {
+        color: var(--color-legend);
+        cursor: pointer;
+      }
+    }
+  
+  }
+
+}
+
